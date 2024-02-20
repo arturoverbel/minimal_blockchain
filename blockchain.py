@@ -104,6 +104,7 @@ def get_chain():
 
 @app.route('/', methods=['GET'])
 def index():
+    print('request received')
     return jsonify({ 'status': 'success' }), 200
 
 @app.route('/is_valid', methods = ['GET'])
