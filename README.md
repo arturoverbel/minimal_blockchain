@@ -13,6 +13,16 @@ Minimal blockchain developed with Python. This project is created with the help 
 | Mine new block  | `/mine_block` |
 | Valid the chain | `/is_valid`   |
 
+## Docker
+
+Run with docker locally
+
+```bash
+docker run -d --name bc-minimal -p 5001:5001 arturoverbel/r2-blockchain-minimal:1.0.0
+```
+### Docker
+Link to docker: [Here](https://hub.docker.com/repository/docker/arturoverbel/r2-blockchain-minimal/)
+
 ## Responses
 ### Mine block response
 ```json
